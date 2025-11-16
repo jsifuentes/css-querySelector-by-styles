@@ -1,0 +1,46 @@
+{
+  "name": "css-querySelector-with-rules",
+  "version": "1.0.0",
+  "description": "Query DOM elements by both CSS selector and computed styles",
+  "main": "css-querySelector-by-styles.js",
+  "module": "css-querySelector-by-styles.js",
+  "types": "css-querySelector-by-styles.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "css",
+    "selector",
+    "query",
+    "dom",
+    "styles",
+    "computed-styles",
+    "querySelector",
+    "querySelectorAll"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "css-querySelector-by-styles.js",
+    "css-querySelector-by-styles.d.ts",
+    "README.md",
+    "example.html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsifuentes/css-querySelector-by-syles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsifuentes/css-querySelector-by-syles/issues"
+  },
+  "homepage": "https://github.com/jsifuentes/css-querySelector-by-syles#readme",
+  "devDependencies": {
+    "@vitest/ui": "^1.0.0",
+    "happy-dom": "^12.10.3",
+    "vitest": "^1.0.0"
+  }
+}
+
